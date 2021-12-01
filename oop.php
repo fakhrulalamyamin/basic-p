@@ -260,7 +260,7 @@ class Foo {
 
 class Test extends Foo {
     public function yes() {
-        return Foo::hello();
+        return parent::hello();
     }
 }
 
