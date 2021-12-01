@@ -248,3 +248,20 @@ echo $hello -> name;
 */
 
 // Class 10 : Static method and property
+
+class Foo {
+    public static $name = 'Yamin';
+
+    protected static function hello()
+    {
+        return 'I am a static method made by ' . self::$name;
+    }
+}
+
+class Test extends Foo {
+    public function yes() {
+        return Foo::hello();
+    }
+}
+
+echo (new Test)-> yes();
