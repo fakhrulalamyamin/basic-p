@@ -1,5 +1,5 @@
 <?php
-/**
+/*
 // Class 01
 echo 'Hello from shikhun.net php course...';
 print('Hello from shikhun.net php course...');

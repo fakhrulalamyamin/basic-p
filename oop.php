@@ -85,6 +85,10 @@ echo $family -> female;
 
 // Class 04 : Access Modifier
 
+// Public Property can be accessed from anywhere
+// Private property can be accessed from only the class
+// Proteched property can be accessed from the class and interited class
+
 class Random {
     public $num1 = 200;
     private $num2 = 400;
